@@ -1,4 +1,4 @@
-export default function Li({value}) {
+export default function Li({classvalue}) {
 
-  return <li className="align-baseline">{value}</li>
+  return <li className="align-baseline">{classvalue}</li>
 }
