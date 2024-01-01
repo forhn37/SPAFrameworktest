@@ -1,4 +1,4 @@
-export default function Li({classvalue}) {
+export default function Li({classvalue, clickname}) {
 
-  return <li className="align-baseline">{classvalue}</li>
+  return <li className="text-left list-none" onClick={()=> clickname(classvalue)}>{classvalue}</li>
 }
